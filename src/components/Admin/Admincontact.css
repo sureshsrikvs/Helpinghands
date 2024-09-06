@@ -1,0 +1,44 @@
+.Admincontact{
+    width: 100%;
+}
+.admincon-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: column;
+
+}
+
+.adcon-check{
+    width: 287px;
+    height: 287px;
+    border: 1px solid red;
+    background: #001F34;
+}
+.adcon-check-container{
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid red;
+}
+.con-check-name{
+    width: 100%;
+}
+.con-check-phone p,
+.con-check-email p,
+.con-check-message p,
+.con-check-name p{
+    width: 100%;
+    font-size: 10px;
+    color: #fff;
+}
+.con-check-phone h2,
+.con-check-email h2,
+.con-check-name h2{
+    width: 100%;
+    font-size: 20px;
+    color: #fff;
+}
+.con-check-message h5{
+    font-size: 10px;
+}

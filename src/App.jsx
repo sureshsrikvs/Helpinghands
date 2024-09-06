@@ -1,6 +1,7 @@
 import "./App.css";
 import Donner from "./components/About/blood/Donner";
 import AboutUs from "./components/Aboutpage/AboutUs";
+import AdminDashboard from "./components/Admin/AdminDashboard";
 import Contact from "./components/Contact/Contact";
 import Donate from "./components/Donate/Donate";
 import DonateNow from "./components/DonateNow/DonateNow";
@@ -17,8 +18,9 @@ function App() {
     
       {/* <Gallery /> */}
       {/* <Donate /> */}
-      <DonateNow />
+      {/* <DonateNow /> */}
       {/* <Donner/> */}
+      <AdminDashboard/>
     </>
   );
 }
