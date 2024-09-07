@@ -3,7 +3,8 @@ import "./Adupcomingevents.css"
 
 const Adupcomingevents = () => {
   return (
-    <div className="table-container">
+    <div className="main-adupcomingevent">
+      <div className="table-container">
       <table>
         <thead>
           <tr>
@@ -26,6 +27,7 @@ const Adupcomingevents = () => {
           </tr>
         </tbody>
       </table>
+    </div>
     </div>
   )
 }

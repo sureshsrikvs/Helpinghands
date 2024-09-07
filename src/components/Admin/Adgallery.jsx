@@ -3,7 +3,8 @@ import "./Adgallery.css"
 
 const Adgallery = () => {
   return (
-    <div className="admingallery">
+    <div className="main-admingall">
+        <div className="admingallery">
         <div className="adgall-container">
             <div className="adgall-heading">
                 <h3>GALLERY LIST</h3>
@@ -18,6 +19,7 @@ const Adgallery = () => {
                 <button className='adgall-sub-btn'>Submit</button>
             </div>
         </div>
+    </div>
     </div>
   )
 }

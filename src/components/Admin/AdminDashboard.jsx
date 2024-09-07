@@ -11,8 +11,12 @@ import Annualreport from "../Admin/Adminimage/Annualreport.png"
 import Adnotification from "./Adnotification";
 import Adgallery from "./Adgallery";
 import Adupcomingevents from "./Adupcomingevents";
-import Adform from "./Adminform";
+// import Adform from "./Adminform";
 import Admincontact from "./Admincontact";
+import Adminvol from "./Adminvol";
+import Admindonner from "./Admindonner";
+import AdminARP from "./AdminARP";
+import { Link } from "react-router-dom";
 
 const AdminDashboard = () => {
   return (
@@ -24,31 +28,31 @@ const AdminDashboard = () => {
         <ul className="lists">
           <div className="icon">
             <img src={dashboard} alt="" />
-            <li>Dashboard</li>
+            <li><Link to="/" >Dashboard</Link></li>
           </div>
           <div className="icon">
             <img src={gallery} alt="" />
-            <li>Gallery</li>
+            <li><Link to="/gallery" >Gallery</Link></li>
           </div>
           <div className="icon">
             <img src={event} alt="" />
-            <li>Events</li>
+            <li><Link to="/events" >Events</Link></li>
           </div>
           <div className="icon">
             <img src={contact} alt="" />
-            <li>Contacts</li>
+            <li><Link to="/contact" >Contacts</Link></li>
           </div>
           <div className="icon">
             <img src={volunteer} alt="" />
-            <li>Volunteer</li>
+            <li><Link to="/volunteer" >Volunteer</Link></li>
           </div>
           <div className="icon">
             <img src={donors} alt="" />
-            <li>Donors</li>
+            <li><Link to="/donors" >Donors</Link></li>
           </div>
           <div className="icon">
             <img src={Annualreport} alt="" />
-            <li>Annual report</li>
+            <li><Link to="/annual-report" >Annual report</Link></li>
           </div>
          
           
@@ -60,15 +64,18 @@ const AdminDashboard = () => {
           <div className="topbar-header">
               <h1>helping hands charity</h1>
           </div>
-          <div className="topbar-content">
+          
+      </div>
+      <div className="topbar-content">
               {/* <Adnotification/> */}
               {/* <Adgallery/> */}
               {/* <Adupcomingevents/> */}
-              {/* <Adform/> */}
-              <Admincontact/>
+              
+              {/* <Admincontact/> */}
+              {/* <Adminvol/> */}
+              {/* <Admindonner/> */}
+              {/* <AdminARP/> */}
           </div>
-      </div>
-
       
 
       

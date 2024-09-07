@@ -1,3 +1,14 @@
+.main-admingall{
+  width: 90%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+
+}
+
 .admingallery {
   width: 60%;
   height: 380px;
