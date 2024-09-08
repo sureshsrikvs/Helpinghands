@@ -119,6 +119,7 @@
    font-weight: 500;
    line-height: 35px;
    text-transform: capitalize;
+   color: #000;
 }
 .passionate .pass-con .pass-btn{
     margin: 3rem auto;

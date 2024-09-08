@@ -27,21 +27,9 @@ function App() {
       {/* <Gallery /> */}
       {/* <Donate /> */}
       {/* <DonateNow /> */}
-      {/* <Donner/> */}
+     
 
-      <Router>
-      <Routes>
-        <Route path="/" element={<AdminDashboard />}>
-          <Route index element={<Adnotification />} />
-          <Route path="/events" element={<Adupcomingevents />} />
-          <Route path="/gallery" element={<Adgallery />} />
-          <Route path="/contact" element={<Admincontact />} />
-          <Route path="/volunteer" element={<Adminvol />} />
-          <Route path="/donors" element={<Admindonner />} />
-          <Route path="/annual-report" element={<AdminARP />} />
-        </Route>
-      </Routes>
-    </Router>
+     
     </>
   );
 }

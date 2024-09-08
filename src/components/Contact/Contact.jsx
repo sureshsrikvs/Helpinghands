@@ -135,10 +135,10 @@ const Contact = () => {
                       <img src={phone} alt="address" />
                     </li>
                   </ul>
-                  <ul className="text">
+                  <ul className="contact-text">
                     <li>
                       <p>
-                        No. 19, Kamaraj Nagar Main Road, Avadi, Chennai - 600071
+                        No. 19, Kamaraj Nagar Main Road,<br/> Avadi, Chennai - 600071
                       </p>
                     </li>
                     <li>

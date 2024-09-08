@@ -13,46 +13,48 @@
 }
 
 
-.gradient2,
-.gradient1 {
+.about-gradient2,
+.about-gradient1 {
   position: absolute;
   width: 994px;
   height: 490px;
 }
-.gradient2,
-.gradient1 img {
+.about-gradient2,
+.about-gradient1 img {
   width: 100%;
 }
-.gradient1 {
+.about-gradient1 {
   width: 900px;
   left: -1rem;
   top: -18rem;
   z-index: -10;
 }
-.gradient2 {
+.about-gradient2 {
   width: 900px;
   height: 290px;
   right: -12rem;
   top: -20rem;
   z-index: -10;
 }
-.gradient2 img{
+.about-gradient2 img{
   width: 100%;
 }
 
 /* tittle */
-.tittle-container{
+.about-tittle-container{
   width: 100%;
 }
-.tittle-container p{
+.about-tittle-container p{
   width: 90%;
   margin: 2% auto;
   text-align: center;
   line-height: 40px;
   font-size: 20px;
+  font-weight: 600;
   text-transform: capitalize;
+  color: #000;
 }
-.tittle-container h1{
+.about-tittle-container h1{
   width: 100%;
   text-align: center;
   margin: 5% auto;
@@ -239,6 +241,7 @@
 .about-donate-section {
   width: 100%;
   margin: 4rem auto;
+  text-align: center;
 }
 .about-donate-section .donate-section-content h3 {
   text-align: center;
@@ -250,28 +253,24 @@
   width: 90%;
   text-align: center;
   font-size: 24px;
-  margin: 3rem;
   font-weight: 500;
   text-transform: capitalize;
   line-height: 44px;
   margin: 0 auto;
+  color: #000;
+  margin-bottom: 40px;
 }
-.about-donate-section .donate-section-content button {
+.about-donate-section .donate-section-content abs-dn-button {
   width: 200px;
   text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: center;
   border: none;
   color: #fff;
   background: #000;
   border-radius: 5px;
   font-size: 16px;
-  margin: 3rem;
   font-weight: 500;
   text-transform: capitalize;
   line-height: 44px;
-  margin: 4rem auto;
   cursor: pointer;
   transition: transform 0.3s ease;
 }
@@ -365,6 +364,7 @@
   line-height: 46px;
   align-items: center;
   text-transform: capitalize;
+  color: #000;
 }
 
 /* vallnow */
@@ -492,40 +492,40 @@
 }
 
 @media screen and (max-width: 780px) {
-  .gradient2,
-.gradient1 {
+  .about-gradient2,
+.about-gradient1 {
   position: absolute;
   width: 994px;
   height: 490px;
 }
-.gradient2,
-.gradient1 img {
+.about-gradient2,
+.about-gradient1 img {
   width: 100%;
 }
-.gradient1 {
+.about-gradient1 {
   width: 100%;
   left: 0rem;
   top: 0rem;
   z-index: -10;
 }
-.gradient2 {
+.about-gradient2 {
   width: 100%;
   height: 290px;
   right: 0rem;
   top: -5rem;
   z-index: -10;
 }
-.gradient2 img{
+.about-gradient2 img{
   width: 100%;
 }
 
 /* tittle */
-.tittle-container p{
+.about-tittle-container p{
   width: 350px;
   line-height: 19px;
   font-size: 12px;
 }
-.tittle-container h1{
+.about-tittle-container h1{
   font-size: 22px;
 }
 

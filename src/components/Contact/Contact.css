@@ -227,22 +227,24 @@ button:hover {
     
    
   }
-  .address .text{
+  .address .contact-text{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
     justify-content: space-between;
     height: 255px;
     
   }
+
   .text:nth-child(even){
     margin-bottom: 1.8rem;
   }
-  .address .text li p{
+  .address .contact-text li p{
     width: 322px;
       font-size: 20px; 
       text-align: center;
-      font-weight: 700;   
+      font-weight: 700;  
+      color: #000; 
   }
   .map-container{
     width: 660px;
