@@ -12,7 +12,6 @@
 
 .hc-left{
     width: 68%;
-    height: 100vh;
 }
 .hc-left h1{
    text-transform: uppercase;
@@ -117,4 +116,130 @@ position: relative;
     position: absolute;
     left: -30px;
     bottom: -30px;
+}
+
+
+@media screen and (max-width: 480px ){
+    .healthcare{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .hc-container{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 0;
+       
+    }
+    .hc-left{
+        width: 100%;
+        margin: 0 auto;
+    height: 70vh;
+
+    }
+    .hc-left h1{
+       text-transform: uppercase;
+       font-style: italic;
+       font-size: 15px;
+       font-weight: 800;
+       margin-bottom: 2rem;
+    }
+    .hc-left h1 span{
+        color: #008B4A;
+    }
+    .hc-left p{
+        width: 100%;
+       font-size: 10px;
+       font-weight: 500;
+       line-height: 22px;
+       text-transform: capitalize;
+       color: #000;
+    }
+    .hc-image-container{
+        height: 189.21px;
+        width:100%;
+     
+    }
+    .hc-image1{
+        position: absolute;
+        width: 110.89px;
+        height: 110.89px;
+        border-radius: 50%;
+        bottom: -10px;
+        left: -10px;
+        overflow: hidden;
+    }
+    .hc-image1 img{
+        width: 100%;
+        object-fit: fill;
+    }
+    .hc-image2 img{
+        width: 100%;
+    }
+    .hc-image3 img{
+        width: 100%;
+    }
+    .hc-image2{
+        position: absolute;
+        width: 131.91px;
+        height: 131.91px;
+        border-radius: 50%;
+        bottom: 0px;
+        left: 8rem;
+    }
+    .hc-image3{
+        position: absolute;
+        width: 75.85px;
+        height: 75.85px;
+        border-radius: 50%;
+        right: 0;
+    }
+    
+.hc-right-box{
+    width: 70%;
+    background: #008B4A;
+    padding: 10px 17px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+.hc-right-box h3{
+    color: #fff;
+    font-size: 16px;
+}
+.hc-right-btn{
+    margin-top: 50px;
+    padding: 8px 20px;
+    font-size: 10px;
+    color: black;
+    background: #fff;
+}
+
+.hc-right-btn:hover{
+    background: #fff;
+    color: #000;
+}
+.white-back::before{
+    content: url("../Ourprogram/programimage/backimg.png");
+    position: absolute;
+   left: -60px;
+   bottom: -60px;
+   
+}
+.white-back::after{
+    content: url("../Ourprogram/programimage/backimg2.png");
+    position: absolute;
+    left: -50px;
+    bottom: -50px;
+}
+.hc-right {
+    width: 100%;
+    margin: 0 auto;
+    height: 20vh;
+}
+
 }

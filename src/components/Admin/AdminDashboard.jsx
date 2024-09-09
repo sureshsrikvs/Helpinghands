@@ -11,7 +11,6 @@ import Annualreport from "../Admin/Adminimage/Annualreport.png"
 import Adnotification from "./Adnotification";
 import Adgallery from "./Adgallery";
 import Adupcomingevents from "./Adupcomingevents";
-// import Adform from "./Adminform";
 import Admincontact from "./Admincontact";
 import Adminvol from "./Adminvol";
 import Admindonner from "./Admindonner";
@@ -20,39 +19,39 @@ import { Link } from "react-router-dom";
 
 const AdminDashboard = () => {
   return (
-    <div className="page-container">
-      <div className="sidebar">
-        <div className="logocontainer">
+    <div className="admin-page-container">
+      <div className="admin-sidebar">
+        <div className="admin-logocontainer">
         <img src={logo} alt="" />
         </div>
-        <ul className="lists">
-          <div className="icon">
+        <ul className="admin-lists">
+          <div className="admin-icon">
             <img src={dashboard} alt="" />
-            <li><Link to="/" >Dashboard</Link></li>
+            <li>Dashboard</li>
           </div>
-          <div className="icon">
+          <div className="admin-icon">
             <img src={gallery} alt="" />
-            <li><Link to="/gallery" >Gallery</Link></li>
+            <li>Gallery</li>
           </div>
-          <div className="icon">
+          <div className="admin-icon">
             <img src={event} alt="" />
-            <li><Link to="/events" >Events</Link></li>
+            <li>Events</li>
           </div>
-          <div className="icon">
+          <div className="admin-icon">
             <img src={contact} alt="" />
-            <li><Link to="/contact" >Contacts</Link></li>
+            <li>Contacts</li>
           </div>
-          <div className="icon">
+          <div className="admin-icon">
             <img src={volunteer} alt="" />
-            <li><Link to="/volunteer" >Volunteer</Link></li>
+            <li>Volunteer</li>
           </div>
-          <div className="icon">
+          <div className="admin-icon">
             <img src={donors} alt="" />
-            <li><Link to="/donors" >Donors</Link></li>
+            <li>Donors</li>
           </div>
-          <div className="icon">
+          <div className="admin-icon">
             <img src={Annualreport} alt="" />
-            <li><Link to="/annual-report" >Annual report</Link></li>
+            <li>Annual report</li>
           </div>
          
           
@@ -60,13 +59,13 @@ const AdminDashboard = () => {
           
         </ul>
       </div>
-      <div className="topbar">
-          <div className="topbar-header">
+      <div className="admin-topbar">
+          <div className="admin-topbar-header">
               <h1>helping hands charity</h1>
           </div>
           
       </div>
-      <div className="topbar-content">
+      <div className="admin-topbar-content">
               <Adnotification/>
               {/* <Adgallery/> */}
               {/* <Adupcomingevents/> */}

@@ -31,6 +31,7 @@
   margin: 2rem auto;
   line-height: 37px;
   margin-bottom: 3rem;
+  color: #000000;
 }
 .donatenow-content .doNow-btn {
   padding: 12px 50px;
@@ -116,6 +117,8 @@
   font-weight: 400;
   line-height: 24px;
   line-height: 24px;
+  color: #000000;
+
 }
 .donation-container .donation-left h2 span {
   color: #ff90b2;
@@ -646,7 +649,7 @@
   }
   .donation-container .donation-left p {
     font-size: 11px;
-
+    color: #000000;
     width: 320px;
     line-height: 24px;
     text-align: center;
@@ -692,14 +695,14 @@
   .donate-card-container .backimage img {
     width: 100%;
   }
-  .card {
+  .dn-card {
     width: 170px;
     height: 58px;
     padding: 5px;
     border-radius: 4px;
   }
 
-  .icon {
+  .dn-icon {
     background: #0095ff;
     padding: 20px;
     display: flex;
@@ -712,20 +715,22 @@
     height: 30px;
   }
 
-  .icon img {
+  .dn-icon img {
     width: 20px;
     height: 20px;
   }
 
-  .card .text {
-    width: 150px;
+  .dn-card .dn-text {
+    width: 50px;
     height: 40px;
-    margin-left: 8px;
+    margin-left: 0px;
+    margin-top: 20px;
     display: flex;
     align-items: start;
     justify-content: center;
   }
-  .card .text h1 {
+  .dn-card .dn-text h1 {
+    width: 100%;
     font-size: 8px;
     font-style: italic;
   }

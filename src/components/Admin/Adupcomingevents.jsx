@@ -21,8 +21,8 @@ const Adupcomingevents = () => {
             <td className='eventname'>Charity Run</td>
             <td className='date'>2024-09-10</td>
             <td className='location'>New York City</td>
-            <td className='DESC'>A charity run to raise funds for underprivileged children.</td>
-            <td><img src="/path/to/image.jpg" alt="Event" width="50" /></td>
+            <td className='DESC'>as</td>
+            <td>asdfgh</td>
             <td><button className="table-button">Delete</button></td>
           </tr>
         </tbody>

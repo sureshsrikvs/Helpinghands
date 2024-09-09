@@ -1,58 +1,136 @@
-.gallery{
-    width: 100%;
+.gallery {
+  width: 100%;
 }
-.gallery-container{
-    width: 100%;
-    margin: 3rem auto;
+.gallery-container {
+  width: 100%;
+  margin: 3rem auto;
+}
+.hero-image {
+  width: 100%;
+  height: 90vh;
+  background-image: url("../Gallery/galleryimage/galleryback.png");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
 
+.gall-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1.5rem auto;
+  gap: 20px;
 }
-.hero-image{
+
+.gall-container {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+
+.gall-row .image {
+  width: 300px;
+  height: 90px;
+}
+.gall-row .images img {
+  width: 100%;
+}
+
+.gall-text {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.gall-text h1 {
+  width: 70%;
+  text-align: center;
+  margin: 3rem auto;
+  font-size: 36px;
+}
+.gall-text .gall-btn {
+  padding: 12px 60px;
+  font-size: 24px;
+  text-transform: capitalize;
+  background: #000000;
+  color: #fff;
+  border-radius: 12px;
+  font-weight: 600;
+  line-height: 37px;
+  font-family: "Plus Jakarta Sans";
+}
+
+@media screen and (max-width: 1024px) {
+  .gallery-container {
     width: 100%;
-    height: 90vh;
+    margin: 1rem auto;
+  }
+  .hero-image {
+    width: 90%;
+    height: 60vh;
     background-image: url("../Gallery/galleryimage/galleryback.png");
     background-position: center;
     background-size: 100%;
     background-repeat: no-repeat;
+  }
 }
-
-.gall-row{
+@media screen and (max-width: 768px) {
+  .gallery-container {
+    width: 100%;
+    margin: 1rem auto;
+  }
+  .hero-image {
+    width: 90%;
+    height: 40vh;
+    background-image: url("../Gallery/galleryimage/galleryback.png");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
+@media screen and (max-width: 480px) {
+  .gallery-container {
+    width: 100%;
+    margin: 1rem auto;
+  }
+  .gall-container {
+    margin-top: 4rem;
+    margin-bottom: 3rem;
+  }
+  .hero-image {
+    width: 100%;
+    margin: 0 auto;
+    height: 20vh;
+    background-image: url("../Gallery/galleryimage/galleryback.png");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+  .gall-row {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 3rem auto;
-}
+    margin: 1rem auto;
+    gap: 15px;
+  }
 
-.gall-container{
-    margin-top: 10rem;
-    margin-bottom: 10rem;
-}
-
-.gall-row .image{
-    width: 300px;
-    height: 90px;
-}
-.gall-row .images img{
+  .gall-row .image {
+    width: 194.33px;
+    height: 129.4px;
+  }
+  .gall-row .images img {
     width: 100%;
-    
-}
-
-.gall-text{
+  }
+  .gall-text h1 {
     width: 100%;
-    height: 400px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-.gall-text h1{
-    width: 70%;
-    text-align: center;
-    margin: 3rem auto; 
-    font-size: 36px;   
-    
-}
-.gall-text .gall-btn{
-    padding: 12px 60px ;   
-    font-size: 24px; 
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 29px;
+    text-transform: capitalize;
+  }
+  .gall-text .gall-btn {
+    padding: 8px 50px;
+    font-size: 14px;
     text-transform: capitalize;
     background: #000000;
     color: #fff;
@@ -60,51 +138,5 @@
     font-weight: 600;
     line-height: 37px;
     font-family: "Plus Jakarta Sans";
-}
-
-@media screen and (max-width : 1024px) {
-    .gallery-container{
-        width: 100%;
-        margin: 1rem auto;
-    
-    }
-    .hero-image{
-        width: 90%;
-        height: 60vh;
-        background-image: url("../Gallery/galleryimage/galleryback.png");
-        background-position: center;
-        background-size:100%;
-        background-repeat: no-repeat;
-    }
-}
-@media screen and (max-width : 768px) {
-    .gallery-container{
-        width: 100%;
-        margin: 1rem auto;
-    
-    }
-    .hero-image{
-        width: 90%;
-        height: 40vh;
-        background-image: url("../Gallery/galleryimage/galleryback.png");
-        background-position: center;
-        background-size:100%;
-        background-repeat: no-repeat;
-    }
-}
-@media screen and (max-width : 480px) {
-    .gallery-container{
-        width: 100%;
-        margin: 1rem auto;
-    
-    }
-    .hero-image{
-        width: 100%;
-        margin: 0 auto;
-        height: 20vh;
-        background-image: url("../Gallery/galleryimage/galleryback.png");
-        background-position: center;
-        background-size: 100%;
-        background-repeat: no-repeat;
-    }
+  }
 }

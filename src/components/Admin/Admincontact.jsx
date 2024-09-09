@@ -4,6 +4,9 @@ const Admincontact = () => {
   return (
     <div className="Admincontact">
       <div className="admincon-container">
+      <div className="admin-con-heading">
+        <h1>contact</h1>
+      </div>
         <div className="admin-content">
         <div className="adcon-check">
           <div className="adcon-check-container">

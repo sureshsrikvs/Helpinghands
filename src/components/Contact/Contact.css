@@ -158,7 +158,7 @@ textarea {
   position: relative;
 }
 
-button {
+.contact-submit {
   margin-top: 1rem;
   padding: 10px 40px;
   background-color: black;
@@ -170,11 +170,11 @@ button {
   transition: transform .3s ease;
 }
 
-button:active{
+.contact-submit:active{
   transform: scale(1);
 }
 
-button:hover {
+.contact-submit:hover {
   background-color: #373535;
   color: white;
   transform: scale(1.1);
@@ -499,7 +499,7 @@ textarea {
   position: relative;
 }
 
-button {
+.contact-submit {
   margin-top: 1rem;
   padding: 10px 40px;
   background-color: black;
@@ -511,11 +511,11 @@ button {
   transition: transform .3s ease;
 }
 
-button:active{
+.contact-submit:active{
   transform: scale(1);
 }
 
-button:hover {
+.contact-submit:hover {
   background-color: #373535;
   color: white;
   transform: scale(1.1);
@@ -526,13 +526,14 @@ button:hover {
 }
 
 .center-text{
-  width: 100%;
+  width: 95%;
+  margin: 0 auto;
 }
 .center-text h3{
  text-align: center;
   font-family: "Plus Jakarta Sans";
   text-transform: capitalize;
-    font-size: 10px;
+    font-size: 8px;
     font-weight: 600;
     margin: 4rem auto;
 }
@@ -577,13 +578,13 @@ button:hover {
 .address-icon li img{
   width: 100%;
 }
-.address .text{
-  height: 105px;
+.address .contact-text{
+  height: 125px;
 }
-.text:nth-child(even){
+.contact-text:nth-child(even){
   margin-bottom: .4rem;
 }
-.address .text li p{
+.address .contact-text li p{
   width: 150px;
     font-size: 10px; 
 }

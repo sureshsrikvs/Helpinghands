@@ -1,20 +1,11 @@
 
-  .page-container{
+  .admin-page-container{
     width: 100vw;
     height: 100vh;
     display: flex;
   }
 
-  .sidebar{
-    /* width: 10%;
-    height: 100vh;
-    
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 20px 0;
-    position: sticky;
-    z-index: 999; */
+  .admin-sidebar{
     position: fixed;
   top: 0;
   left: 0;
@@ -29,14 +20,14 @@
     color: white;
     text-decoration: none;
   }
-  .logocontainer{
+  .admin-logocontainer{
     width: 102px;
     height: 102px;
   }
-  .logocontainer img{
+  .admin-logocontainer img{
     width: 100%;
   }
-  .lists{
+  .admin-lists{
     margin: 20px 0;
     width: 90%;
     height: 70%;
@@ -47,22 +38,22 @@
     flex-direction: column;
   }
 
-  .icon{
+  .admin-icon{
     width: 107px;
     height: 62px;
     text-align: center;
     transition: all .3s ease;
   }
-  .icon:hover{
+  .admin-icon:hover{
     transform: scale(1.15);
   }
-  .icon:active{
+  .admin-icon:active{
     transform: scale(.9);
   }
-  .icon img {
+  .admin-icon img {
     width: 30px;
   }
-  .icon li {
+  .admin-icon li {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -72,13 +63,7 @@
    font-size: 15px;
    font-weight: 600;
   }
-.topbar{
-    /* 
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    position: sticky;
-    z-index: 999; */
+.admin-topbar{
     position: fixed;
     top: 0;
     left: 10%;
@@ -87,7 +72,7 @@
     z-index: 1000;
 }
   
-.topbar-header{
+.admin-topbar-header{
     width: 100%;
     height: 15vh;
     display: flex;
@@ -96,18 +81,23 @@
     padding-left: 20px;
     background: #001F34;
 }
-.topbar-header h1{
+.admin-topbar-header h1{
     font-size: 32px;
     font-weight: 700;
     color: #fff;
     text-transform: uppercase;
     font-family: "Plus Jakarta Sans";
 }
-.topbar-content{
+.admin-topbar-content{
   margin-left: 200px;
   margin-top: 50px;
   padding: 20px;
   width: calc(100% - 200px);
   height: calc(100vh - 50px);
   overflow-y: auto;
+}
+
+
+@media screen and (max-width : 480px) {
+  
 }

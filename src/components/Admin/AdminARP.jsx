@@ -37,17 +37,16 @@ const AdminARP = () => {
         <div className="arp-table">
           <table>
             <thead>
-              <tr className="">
-                <th className="arp-thead-lr arp-tr">Name</th>
-                <th className="arp-tr">Phone</th>
-                <th className="arp-thead-rr arp-tr">Year</th>
+              <tr >
+               
+                <th className="arp-thead-tl arp-tr">Year</th>
+                <th className="arp-thead-tr">Action</th>
               </tr>
             </thead>
             <tbody className="arp-tbody-r">
               {data.map((row) => (
                 <tr key={row.id}>
-                  <td className="arp-td">{row.name}</td>
-                  <td className="arp-td">{row.phone}</td>
+                  
                   <td className="arp-td">{row.year}</td>
                   <td className="arp-td-btn">
                     <button

@@ -1,5 +1,5 @@
 .adminarp{
-    width: 100%;
+    width: 90%;
 }
 
 .arp-container {
@@ -19,7 +19,7 @@
   }
   
   .arp-form-container {
-    width: 30%;
+    width: 50%;
     margin-bottom: 30px;
     padding: 20px;
     border-radius: 10px;
@@ -28,6 +28,7 @@
   .arp-form-year{
     width: 172px;
    margin: 0 auto;
+   text-align: start;
   }
   .arp-form-container label {
     font-weight: bold;
@@ -38,7 +39,8 @@
     width: 162px;
     padding: 5px;
     border-radius: 5px;
-
+    background: #000;
+    color: #fff;
     border: 1px solid #ccc;
   }
   
@@ -83,18 +85,19 @@
   }
   
  .arp-td-btn{
-    background: none;
     width: 8%;
+
  }
  .arp-td-delete{
     padding: 10px 30px;
  }
 
- .arp-thead-lr{
-    border-top-left-radius: 8px;
+.arp-thead-tl{
+   border-top-left-radius: 8px;
  }
- .arp-thead-rr{
-    border-top-right-radius: 8px;
+.arp-thead-tr{
+   border-top-right-radius: 8px;
+   text-align: center;
  }
 .arp-tr, .arp-td{
     text-align: center;
@@ -102,6 +105,10 @@
 
 
 /* uploadbtns */
+.arp-table{
+  width: 50%;
+  margin: 0 auto;
+}
 .arp-btns {
     width: 285px;
     height: 242px;

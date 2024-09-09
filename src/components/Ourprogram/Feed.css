@@ -118,3 +118,128 @@ position: relative;
     left: -30px;
     bottom: -30px;
 }
+
+@media screen and (max-width: 480px ){
+    .feed{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .feed-container{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 0;
+       
+    }
+    .feed-left{
+        width: 100%;
+        margin: 0 auto;
+        height: 70vh;
+    }
+    .feed-left h1{
+       text-transform: uppercase;
+       font-style: italic;
+       font-size: 15px;
+       font-weight: 800;
+       margin-bottom: 2rem;
+    }
+    .feed-left h1 span{
+        color: #FFB600;
+    }
+    .feed-left p{
+        width: 100%;
+       font-size: 10px;
+       font-weight: 500;
+       line-height: 22px;
+       text-transform: capitalize;
+       color: #000;
+    }
+    .feed-image-container{
+        height: 189.21px;
+        width:100%;
+     
+    }
+    .feed-right{
+        height: 20vh;
+    }
+    .feed-image1{
+        position: absolute;
+        width: 110.89px;
+        height: 110.89px;
+        border-radius: 50%;
+        bottom: -10px;
+        left: -10px;
+        overflow: hidden;
+    }
+    .feed-image1 img{
+        width: 100%;
+        object-fit: fill;
+    }
+    .feed-image2 img{
+        width: 100%;
+    }
+    .feed-image3 img{
+        width: 100%;
+    }
+    .feed-image2{
+        position: absolute;
+        width: 131.91px;
+        height: 131.91px;
+        border-radius: 50%;
+        bottom: 0px;
+        left: 8rem;
+    }
+    .feed-image3{
+        position: absolute;
+        width: 75.85px;
+        height: 75.85px;
+        border-radius: 50%;
+        right: 0;
+    }
+    
+.feed-right-box{
+    width: 70%;
+    background: #FFB600;
+    padding: 10px 17px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+.feed-right-box h3{
+    color: #fff;
+    font-size: 16px;
+}
+.feed-right-btn{
+    margin-top: 50px;
+    padding: 8px 20px;
+    font-size: 10px;
+    color: black;
+    background: #fff;
+}
+
+.feed-right-btn:hover{
+    background: #fff;
+    color: #000;
+}
+.white-back::before{
+    content: url("../Ourprogram/programimage/backimg.png");
+    position: absolute;
+   left: -60px;
+   bottom: -60px;
+   
+}
+.white-back::after{
+    content: url("../Ourprogram/programimage/backimg2.png");
+    position: absolute;
+    left: -50px;
+    bottom: -50px;
+}
+.feed-right {
+    width: 100%;
+    margin: 0 auto;
+}
+}

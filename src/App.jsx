@@ -27,6 +27,7 @@ function App() {
       {/* <Gallery /> */}
       {/* <Donate /> */}
       {/* <DonateNow /> */}
+      <AdminDashboard/>
      
 
      

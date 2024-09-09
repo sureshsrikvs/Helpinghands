@@ -35,7 +35,7 @@
 .flood-right{
     width: 28%;
     height: 100vh;
-}
+    }
 
 .flood-image-container{
     width: 100%;
@@ -117,4 +117,129 @@ position: relative;
     position: absolute;
     left: -30px;
     bottom: -30px;
+}
+
+@media screen and (max-width: 480px ){
+    .flood{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .flood-container{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 0;
+       
+    }
+    .flood-left{
+        width: 100%;
+        margin: 0 auto;
+        height: 70vh;
+    }
+    .flood-left h1{
+       text-transform: uppercase;
+       font-style: italic;
+       font-size: 15px;
+       font-weight: 800;
+       margin-bottom: 2rem;
+    }
+    .flood-left h1 span{
+        color: #7755FF;
+    }
+    .flood-left p{
+        width: 100%;
+       font-size: 10px;
+       font-weight: 500;
+       line-height: 22px;
+       text-transform: capitalize;
+       color: #000;
+    }
+    .flood-image-container{
+        height: 189.21px;
+        width:100%;
+     
+    }
+    .flood-right{
+        height: 20vh;
+    }
+    .flood-image1{
+        position: absolute;
+        width: 110.89px;
+        height: 110.89px;
+        border-radius: 50%;
+        bottom: -10px;
+        left: -10px;
+        overflow: hidden;
+    }
+    .flood-image1 img{
+        width: 100%;
+        object-fit: fill;
+    }
+    .flood-image2 img{
+        width: 100%;
+    }
+    .flood-image3 img{
+        width: 100%;
+    }
+    .flood-image2{
+        position: absolute;
+        width: 131.91px;
+        height: 131.91px;
+        border-radius: 50%;
+        bottom: 0px;
+        left: 8rem;
+    }
+    .flood-image3{
+        position: absolute;
+        width: 75.85px;
+        height: 75.85px;
+        border-radius: 50%;
+        right: 0;
+    }
+    
+.flood-right-box{
+    width: 70%;
+    background: #7755FF;
+    padding: 10px 17px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 2rem;
+}
+.flood-right-box h3{
+    color: #fff;
+    font-size: 16px;
+}
+.flood-right-btn{
+    margin-top: 50px;
+    padding: 8px 20px;
+    font-size: 10px;
+    color: black;
+    background: #fff;
+}
+
+.flood-right-btn:hover{
+    background: #fff;
+    color: #000;
+}
+.white-back::before{
+    content: url("../Ourprogram/programimage/backimg.png");
+    position: absolute;
+   left: -60px;
+   bottom: -60px;
+   
+}
+.white-back::after{
+    content: url("../Ourprogram/programimage/backimg2.png");
+    position: absolute;
+    left: -50px;
+    bottom: -50px;
+}
+.flood-right {
+    width: 100%;
+    margin: 0 auto;
+}
 }
