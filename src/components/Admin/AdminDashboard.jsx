@@ -16,6 +16,7 @@ import Adminvol from "./Adminvol";
 import Admindonner from "./Admindonner";
 import AdminARP from "./AdminARP";
 import { Link } from "react-router-dom";
+import Admincreateevents from "./Admincreateevents";
 
 const AdminDashboard = () => {
   return (
@@ -73,7 +74,8 @@ const AdminDashboard = () => {
               {/* <Admincontact/> */}
               {/* <Adminvol/> */}
               {/* <Admindonner/> */}
-              <AdminARP/>
+              {/* <AdminARP/> */}
+              <Admincreateevents/>
           </div>
       
 
