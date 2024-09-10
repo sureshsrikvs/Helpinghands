@@ -66,14 +66,14 @@ const AdminDashboard = () => {
           
       </div>
       <div className="admin-topbar-content">
-              <Adnotification/>
+              {/* <Adnotification/> */}
               {/* <Adgallery/> */}
               {/* <Adupcomingevents/> */}
               
               {/* <Admincontact/> */}
               {/* <Adminvol/> */}
               {/* <Admindonner/> */}
-              {/* <AdminARP/> */}
+              <AdminARP/>
           </div>
       
 

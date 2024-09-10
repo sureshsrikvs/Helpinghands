@@ -12,8 +12,8 @@ const Adgallery = () => {
             <div className="adgall-btns">
                 <button className='upload-btn'>UPLOAD IMAGE</button>
                 <div className="or">
-                    <span></span><p>or</p>
-                    <span></span>
+                    <span className='adgall-span'></span><p>or</p>
+                    <span className='adgall-span'></span>
                 </div>
                 <button className='drive-btn'>DRIVE</button>
                 <button className='adgall-sub-btn'>Submit</button>

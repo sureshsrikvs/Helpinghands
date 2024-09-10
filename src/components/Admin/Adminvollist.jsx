@@ -3,12 +3,14 @@ import "./Adminvollist.css"
 
 const Adminvollist = () => {
   return (
-    <div className="vl-table-container">
-      <h2 className="vl-table-title">VOLUNTEERS LIST</h2>
+    <div className="adminvollist">
+            <h2 className="vl-table-title">VOLUNTEERS LIST</h2>
+
+      <div className="vl-table-container">
       <table className="vl-table">
         <thead>
           <tr>
-            <th>NAME</th>
+            <th className='vl-th'>NAME</th>
             <th>CITY</th>
             <th>AREA</th>
             <th>EMAIL</th>
@@ -25,6 +27,7 @@ const Adminvollist = () => {
           </tr>
         </tbody>
       </table>
+    </div>
     </div>
   )
 }

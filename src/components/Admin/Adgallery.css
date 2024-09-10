@@ -30,8 +30,9 @@
   font-weight: 600;
 }
 .adgall-btns {
+  
   width: 285px;
-  height: 242px;
+  height: 222px;
   background: #000;
   text-align: center;
   display: flex;
@@ -40,6 +41,7 @@
   padding: 10px;
   border-radius: 9px;
   margin-top: 30px;
+  padding-top: 40px;
 }
 
 .adgall-btns p {
@@ -47,7 +49,7 @@
   padding-bottom: 5px;
   margin: 0 4px;
 }
- span{
+.adgall-span{
     width: 90px;
     height: 1px;
   background-color: #fff;
@@ -116,4 +118,51 @@
 .adgall-sub-btn:active{
     transform: scale(.98);
     color: #808080;
+}
+
+@media screen and (max-width: 480px) {
+  .main-admingall{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  
+  }
+  .admingallery {
+    width: 100%;
+    height: 280px;
+    background: #001f34;
+    border-radius: 11px;
+  }
+  .adgall-heading {
+    padding-top: 10px ;
+    font-size: 14px;
+  }
+  .adgall-btns {
+    width:100%;
+    background: #000;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 12px;
+    border-radius: 9px;
+    margin-top: 30px;
+  }
+  .upload-btn{
+    width: 85%;
+    margin-bottom: 10px;
+    height: 36px;
+    font-size: 12px;
+   
+}
+.drive-btn{
+  width: 85%;
+  height: 36px;
+  font-size: 12px;
+  margin-bottom: 10px;
+  
+}
 }

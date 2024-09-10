@@ -4,6 +4,9 @@ import "./Adupcomingevents.css"
 const Adupcomingevents = () => {
   return (
     <div className="main-adupcomingevent">
+      <div className="adupcomingevent-heading">
+        <h1>upcoming events</h1>
+      </div>
       <div className="table-container">
       <table>
         <thead>
