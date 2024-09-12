@@ -18,6 +18,9 @@ import Admindonner from "./components/Admin/Admindonner";
 import AdminARP from "./components/Admin/AdminARP";
 import Landingslider1 from "./components/LandingSlider/Landingslider1";
 import Landingslider2 from "./components/LandingSlider/Landingslider2";
+import Landingslider3 from "./components/LandingSlider/Landingslider3";
+import Landingslider4 from "./components/LandingSlider/Landingslider4";
+import Landingslider5 from "./components/LandingSlider/Landingslider5";
 
 function App() {
   return (
@@ -31,7 +34,10 @@ function App() {
       {/* <DonateNow /> */}
       {/* <AdminDashboard/> */}
      {/* <Landingslider1/> */}
-     <Landingslider2/>
+     {/* <Landingslider2/> */}
+     {/* <Landingslider3/> */}
+     {/* <Landingslider4/> */}
+     <Landingslider5/>
 
      
     </>
