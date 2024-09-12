@@ -49,7 +49,7 @@ const DonateNow = () => {
             sustainable donation.
           </p>
           <button className="doNow-btn">
-            Positive Change through <span>Donations</span> 
+            Positive Change through <span className="doNow-btn-span">Donations</span> 
           </button>
         </div>
 
@@ -75,7 +75,7 @@ const DonateNow = () => {
               </div>
             </div>
 
-            <button className="doNow-btn">Donate-now</button>
+            <button className="doNow-counter-btn">Donate-now</button>
           </div>
           <div class="donate-card-container">
             <div className="backimage">

@@ -1,0 +1,86 @@
+
+.landingslider1{
+    width: 95%;
+    height:auto;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+.ls1-container{
+    width: 100%;
+    border-radius: 10px;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    background: #cdfff344;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+}
+.thiruimage{
+    width: 300px;
+    height: 300px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    border-radius: 30px;
+
+}
+.ollaichuvadi{
+    width: 700px;
+    height: 400px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   position: relative;
+}
+.ollai{
+    width: 700px;
+    height: 350px;
+}
+.ollai img{
+    width: 100%;
+    height: 100%;
+    filter: drop-shadow( 0px 0px 15px rgba(0,0,0,.6));
+}
+
+.thiruimage img{
+    width: 100%;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+    -webkit-transform: scaleX(-1);
+}
+
+.olaitamil{
+    position: absolute;
+    top: 120px;
+}
+.olaitamil p{
+   font-size: 18px;
+   font-weight: 800;
+   color: #84560d;
+   letter-spacing: .09rem;
+
+}
+.olaienglish{
+    position: absolute;
+    top: 220px;
+}
+.olaienglish p{
+    font-size: 22px;
+   font-weight: 600;
+   text-transform: capitalize;
+   letter-spacing: .09rem;
+   color: #84560d;
+
+
+ }
+
+
+@media screen and (max-width: 1025px) {
+   
+}
+@media screen and (max-width: 769px) {
+    
+}
+@media screen and (max-width: 480px) {
+    
+}

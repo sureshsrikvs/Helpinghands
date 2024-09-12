@@ -119,7 +119,55 @@
     transform: scale(.98);
     color: #808080;
 }
-
+@media screen and (max-width : 821px) {
+  .main-admingall{
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  
+  }
+  .admingallery {
+    width: 100%;
+    height: 360px;
+    background: #001f34;
+    border-radius: 11px;
+  }
+  .adgall-heading {
+    padding-top: 10px ;
+    font-size: 14px;
+  }
+  .adgall-btns {
+    width:80%;
+    height: 250px;
+    background: #000;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 9px;
+    margin-top: 30px;
+    padding: 20px 10px;
+  }
+  .upload-btn{
+    width: 65%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 36px;
+    font-size: 12px;
+   
+}
+.drive-btn{
+  width: 65%;
+  height: 36px;
+  font-size: 12px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  
+}
+}
 @media screen and (max-width: 480px) {
   .main-admingall{
     width: 100%;

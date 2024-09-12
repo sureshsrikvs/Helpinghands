@@ -67,7 +67,50 @@
 .qr-gen:active{
     transform: scale(1);
 }
-
+@media screen and (max-width : 821px) {
+    .content-notification{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+        justify-content: space-around;
+        margin-bottom: 2rem;
+    }
+    .notifications{
+        background: #000;
+        width: 180px;
+        height: 123px;
+        border-radius: 3%;
+       
+    }
+    .notifications h2{
+        font-size: 32px;
+    }
+    .notifications h3{
+        font-size: 18px;
+        font-weight: 700;
+    }
+    .noti-dot{
+        position: absolute;
+        width: 27px;
+        height: 27px;
+        background: #FF0707;
+        border-radius: 50%;
+        top: -7px;
+        right: -7px;
+    }
+    .qr-gen{
+        padding: 14px 60px;
+        font-size: 16px;
+        font-family: "Plus Jakarta Sans";
+        font-weight: 700;
+        background: #001F34;
+        border-radius: 4px;
+        transition: all .4s ease;
+        color: #fff;
+    }
+}
 @media screen and (max-width : 480px) {
     .content-notification{
         width: 100%;

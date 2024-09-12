@@ -16,6 +16,8 @@ import Admincontact from "./components/Admin/Admincontact";
 import Adminvol from "./components/Admin/Adminvol";
 import Admindonner from "./components/Admin/Admindonner";
 import AdminARP from "./components/Admin/AdminARP";
+import Landingslider1 from "./components/LandingSlider/Landingslider1";
+import Landingslider2 from "./components/LandingSlider/Landingslider2";
 
 function App() {
   return (
@@ -27,8 +29,9 @@ function App() {
       {/* <Gallery /> */}
       {/* <Donate /> */}
       {/* <DonateNow /> */}
-      <AdminDashboard/>
-     
+      {/* <AdminDashboard/> */}
+     {/* <Landingslider1/> */}
+     <Landingslider2/>
 
      
     </>

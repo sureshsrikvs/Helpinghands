@@ -1,6 +1,7 @@
 .donatenow {
   width: 100%;
   margin: 0 auto;
+  overflow: hidden;
 }
 
 .donatenow-conatainer {
@@ -74,6 +75,7 @@
 .donatenow-center p {
   font-size: 20px;
   margin-bottom: 4rem;
+  color: #000000;
 }
 .donatenow-center .doNow-btn {
   font-size: 36px;
@@ -87,8 +89,10 @@
   border-radius: 5px;
   margin-bottom: 3rem;
 }
-.donatenow-center .doNow-btn span {
+.donatenow-center .doNow-btn .doNow-btn-span {
   color: #ffb600;
+  background: none;
+
 }
 
 .donation-container {
@@ -123,7 +127,7 @@
 .donation-container .donation-left h2 span {
   color: #ff90b2;
 }
-.donation-container .donation-left .doNow-btn {
+.donation-container .donation-left .doNow-counter-btn{
   padding: 14px 60px;
   font-size: 15px;
   border-radius: 3px;
@@ -218,12 +222,13 @@
  font-size: 24px;
  margin-left: 40px;
  font-weight: 600;
+ margin-top: 2%;
  font-style: italic;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1025px) {
   .card-container {
-    max-width: 100%;
+    width: 100%;
     padding: 10px;
   }
   .donatenow {
@@ -236,29 +241,24 @@
     margin: 0 auto;
   }
   .donatenow-content {
-    width: 345px;
+    width: 90%;
     text-align: center;
     margin: 2rem auto;
   }
   .donatenow-content h1 {
-    font-size: 18px;
-    margin-bottom: 1rem;
-    text-transform: uppercase;
-    font-weight: 800;
+    font-size: 28px;
+    margin-bottom: 5%;
   }
-  .donatenow-content span {
-    color: rgba(6, 153, 255, 1);
-  }
+ 
   .donatenow-content p {
-    width: 320px;
-    height: 57px;
-    font-size: 10px;
-    font-weight: 600;
-    margin: 1rem auto;
+    width: 70%;
+    height: auto;
+    font-size: 20px;
+    margin-bottom: 5%;
   }
   .donatenow-content .doNow-btn {
-    padding: 12px 30px;
-    font-size: 10px;
+    padding: 12px 40px;
+    font-size: 16px;
     border-radius: 5px;
   }
 
@@ -269,47 +269,48 @@
     margin: 0 auto;
   }
   .donatenow-center h1 {
-    font-size: 24px;
-    margin-bottom: 1rem;
-    font-weight: 700;
+    font-size: 34px;
+    margin-bottom: 3%;
   }
   .donatenow-center p {
-    font-size: 9px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #000000;
     margin-bottom: 4rem;
   }
   .donatenow-center .doNow-btn {
-    font-size: 18px;
-    padding: 20px 20px;
+    width: 70%;
+    font-size: 34px;
+    padding: 3%  1%;
   }
 
   /* -------------- */
   .donation-container {
-    width: 370px;
+    width: 90%;
     flex-direction: column-reverse;
     text-align: center;
   }
 
   .donation-container .donation-left {
-    width: 370px;
+    width: 100%;
   }
   .donation-container .donation-left h2 {
-    font-size: 20px;
-    line-height: 25px;
+    font-size: 35px;
+    font-weight: 600;
+    line-height: 45px;
     text-align: center;
     text-transform: capitalize;
-    margin-top: 3rem;
-    margin-bottom: 2rem;
+    margin: 5% auto;
   }
   .donation-container .donation-left p {
-    font-size: 11px;
-
-    width: 320px;
-    line-height: 24px;
-    text-align: center;
-    margin: 2rem auto;
+    font-size: 22px;
+    font-weight: 600;
+    width: 75%;
+    line-height: 36px;
+    margin: 5% auto;
   }
 
-  .donation-container .donation-left .doNow-btn {
+  .donation-container .donation-left .doNow-counter-btn {
     padding: 12px 40px;
     font-size: 15px;
     font-weight: 600;
@@ -319,20 +320,10 @@
     color: #fff;
     background: #000000;
   }
-  .donation-container .counter {
-    width: 370px;
-    flex-direction: column;
-    gap: 30px;
-    margin-bottom: 3rem;
-  }
-  .donation-container .counter .row-counter {
-    border: 1px solid #00000066;
-    margin: 0 auto;
-  }
 
   /* ---------- */
   .donate-card-container {
-    width: 370px;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     gap: 10px;
@@ -340,52 +331,51 @@
   }
   .donate-card-container .backimage {
     position: absolute;
-    right: -217px;
+    right: -77px;
     top: -40px;
     width: 180px;
   }
   .donate-card-container .backimage img {
     width: 100%;
   }
-  .card {
-    width: 270px;
-    height: 58px;
-    padding: 5px;
-    border-radius: 4px;
-  }
-  .icon {
-    background: #0095ff;
-    padding: 20px;
-    display: flex;
-    border-radius: 50%;
 
-    justify-content: center;
-    align-items: center;
-    margin-right: 8px;
-    width: 30px;
-    height: 30px;
-  }
-  .icon img {
-    width: 20px;
-    height: 20px;
-  }
-  .card .text {
-    width: 150px;
-    height: 40px;
-    margin-left: 8px;
-    display: flex;
-    align-items: start;
-    justify-content: center;
-  }
-  .card .text h1 {
-    font-size: 8px;
-    font-style: italic;
-  }
-  .donation-container .donation-left .doNow-btn {
+  .donation-container .donation-left .doNow-counter-btn {
     padding: 12px 40px;
-    font-size: 10px;
+    font-size: 16px;
     font-weight: 600;
     border-radius: 5px;
+    outline: none;
+    border: none;
+    color: #fff;
+    background: #000000;
+  }
+  .donation-container .counter {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin-bottom: 3rem;
+    margin: 5% auto;
+  }
+  .donation-container .counter .row-counter {
+    width: 254px;
+    height: 130px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+   
+  }
+  .donation-container .counter .row-counter h1 {
+    font-size:28px;
+    text-align: center;
+  }
+  .donation-container .counter .row-counter h1 span {
+    font-size: 13px;
+  }
+  .donation-container .donation-left .doNow-counter-btn{
+    padding: 14px 50px;
+    font-size: 16px;
+    border-radius: 4px;
+    font-weight: 600;
     outline: none;
     border: none;
     color: #fff;
@@ -394,7 +384,7 @@
 }
 @media screen and (max-width: 768px) {
   .card-container {
-    max-width: 100%;
+    width: 100%;
     padding: 10px;
   }
   .donatenow {
@@ -407,25 +397,19 @@
     margin: 0 auto;
   }
   .donatenow-content {
-    width: 345px;
+    width: 60%;
     text-align: center;
     margin: 2rem auto;
   }
   .donatenow-content h1 {
-    font-size: 18px;
-    margin-bottom: 1rem;
-    text-transform: uppercase;
-    font-weight: 800;
-  }
-  .donatenow-content span {
-    color: rgba(6, 153, 255, 1);
+    font-size: 20px;
+   
   }
   .donatenow-content p {
-    width: 320px;
-    height: 57px;
-    font-size: 10px;
-    font-weight: 600;
-    margin: 1rem auto;
+    width: 85%;
+    height: auto;
+    line-height: 25px;
+    font-size: 14px;
   }
   .donatenow-content .doNow-btn {
     padding: 12px 30px;
@@ -440,41 +424,43 @@
     margin: 0 auto;
   }
   .donatenow-center h1 {
-    font-size: 24px;
+    font-size: 26px;
     margin-bottom: 1rem;
     font-weight: 700;
+    margin-bottom: 3%;
   }
   .donatenow-center p {
-    font-size: 9px;
+    font-size: 12px;
     margin-bottom: 4rem;
   }
   .donatenow-center .doNow-btn {
-    font-size: 18px;
-    padding: 20px 20px;
+    width: 70%;
+    font-size: 24px;
+    padding: 3%  1%;
   }
 
   /* -------------- */
   .donation-container {
-    width: 370px;
+    width: 90%;
     flex-direction: column-reverse;
     text-align: center;
   }
 
   .donation-container .donation-left {
-    width: 370px;
+    width: 100%;
   }
   .donation-container .donation-left h2 {
-    font-size: 20px;
-    line-height: 25px;
+    font-size: 28px;
+    line-height: 35px;
     text-align: center;
     text-transform: capitalize;
     margin-top: 3rem;
     margin-bottom: 2rem;
   }
   .donation-container .donation-left p {
-    font-size: 11px;
+    font-size: 15px;
 
-    width: 320px;
+    width: 70%;
     line-height: 24px;
     text-align: center;
     margin: 2rem auto;
@@ -503,30 +489,31 @@
 
   /* ---------- */
   .donate-card-container {
-    width: 370px;
+    width: 100%;
     display: grid;
-    grid-template-columns: repeat(1, 2fr);
+    grid-template-columns: repeat(2, auto);
     gap: 10px;
     flex-wrap: wrap;
     position: relative;
   }
   .donate-card-container .backimage {
     position: absolute;
-    right: -200px;
+    right: -50px;
     top: -40px;
-    width: 180px;
+    width: 140px;
+    overflow: hidden;
   }
   .donate-card-container .backimage img {
     width: 100%;
   }
-  .card {
+  .dn-card {
     width: 270px;
-    height: 58px;
+    height: auto;
     padding: 5px;
     border-radius: 4px;
   }
 
-  .icon {
+  .dn-icon {
     background: #0095ff;
     padding: 20px;
     display: flex;
@@ -534,17 +521,17 @@
 
     justify-content: center;
     align-items: center;
-    margin-right: 8px;
+    margin-right: 3px;
     width: 30px;
     height: 30px;
   }
 
-  .icon img {
+  .dn-icon img {
     width: 20px;
     height: 20px;
   }
 
-  .card .text {
+  .dn-card .dn-text {
     width: 150px;
     height: 40px;
     margin-left: 8px;
@@ -552,9 +539,10 @@
     align-items: start;
     justify-content: center;
   }
-  .card .text h1 {
+  .dn-card .dn-text h1 {
     font-size: 8px;
     font-style: italic;
+    margin-top: 10%;
   }
   .donation-container .donation-left .doNow-btn {
     padding: 12px 40px;
@@ -583,32 +571,27 @@
     margin: 0 auto;
   }
   .donatenow-content {
-    width: 345px;
-    text-align: center;
-    margin: 2rem auto;
+    width: 90%;
+    
   }
   .donatenow-content h1 {
-    font-size: 18px;
-    margin-bottom: 1rem;
-    text-transform: uppercase;
-    font-weight: 800;
-  }
-  .donatenow-content span {
-    color: rgba(6, 153, 255, 1);
+    font-size: 16px;
   }
   .donatenow-content p {
     width: 320px;
-    height: 57px;
+    height: auto;
     font-size: 10px;
-    font-weight: 600;
-    margin: 1rem auto;
+    line-height: 18px;
   }
   .donatenow-content .doNow-btn {
-    padding: 12px 30px;
-    font-size: 10px;
+    padding: 8px 20px;
+    font-size: 8px;
     border-radius: 5px;
   }
 
+  .dn-gallery {
+    margin: 2rem auto;
+  }
   /* ------------------ */
   .donatenow-center {
     width: 100%;
@@ -616,7 +599,7 @@
     margin: 0 auto;
   }
   .donatenow-center h1 {
-    font-size: 24px;
+    font-size: 18px;
     margin-bottom: 1rem;
     font-weight: 700;
   }
@@ -625,22 +608,23 @@
     margin-bottom: 4rem;
   }
   .donatenow-center .doNow-btn {
-    font-size: 18px;
-    padding: 20px 20px;
+    font-size: 12px;
+    width: 70%;
+    padding: 5%  1%;
   }
 
   /* -------------- */
   .donation-container {
-    width: 370px;
+    width: 90%;
     flex-direction: column-reverse;
     text-align: center;
   }
 
   .donation-container .donation-left {
-    width: 370px;
+    width: 90%;
   }
   .donation-container .donation-left h2 {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 25px;
     text-align: center;
     text-transform: capitalize;
@@ -648,17 +632,17 @@
     margin-bottom: 2rem;
   }
   .donation-container .donation-left p {
-    font-size: 11px;
+    width: 90%;
+    font-size: 10px;
     color: #000000;
-    width: 320px;
-    line-height: 24px;
+    line-height: 22px;
     text-align: center;
     margin: 2rem auto;
   }
 
-  .donation-container .donation-left .doNow-btn {
-    padding: 12px 40px;
-    font-size: 15px;
+  .donation-container .donation-left .doNow-counter-btn {
+    padding: 10px 30px;
+    font-size: 10px;
     font-weight: 600;
     border-radius: 5px;
     outline: none;
@@ -667,37 +651,47 @@
     background: #000000;
   }
   .donation-container .counter {
-    width: 370px;
+    width: 270px;
     flex-direction: column;
     gap: 30px;
     margin-bottom: 3rem;
   }
   .donation-container .counter .row-counter {
+    width: 160px;
+    height: 80px;
     border: 1px solid #00000066;
     margin: 0 auto;
   }
-
+  .donation-container .counter .row-counter h1 {
+    font-size: 16px;
+    text-align: center;
+  }
+  .donation-container .counter .row-counter h1 span {
+    font-size: 10px;
+  }
   /* ---------- */
   .donate-card-container {
-    width: 360px;
+    width: auto;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, auto);
     gap: 10px;
     flex-wrap: wrap;
     position: relative;
   }
   .donate-card-container .backimage {
     position: absolute;
-    right: -10px;
+    right: -55px;
     top: 90px;
-    width: 70px;
+    width: 90px;
   }
   .donate-card-container .backimage img {
-    width: 100%;
+    width: 90%;
+    overflow: hidden;
+
   }
   .dn-card {
-    width: 170px;
-    height: 58px;
+    width: 150px;
+    height: 48px;
     padding: 5px;
     border-radius: 4px;
   }
@@ -714,24 +708,28 @@
     width: 30px;
     height: 30px;
   }
-
+  .dn-icon{
+    width: 30px;
+    height: 30px;
+  }
   .dn-icon img {
     width: 20px;
     height: 20px;
   }
 
   .dn-card .dn-text {
-    width: 50px;
-    height: 40px;
-    margin-left: 0px;
-    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    margin-left: -40px;
+    margin-top: 10px;
     display: flex;
     align-items: start;
     justify-content: center;
   }
   .dn-card .dn-text h1 {
     width: 100%;
-    font-size: 8px;
+    font-size: 7px;
+    font-weight: 800;
     font-style: italic;
   }
   .donation-container .donation-left .doNow-btn {
