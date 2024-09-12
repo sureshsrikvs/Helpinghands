@@ -33,11 +33,11 @@ function App() {
       {/* <Donate /> */}
       {/* <DonateNow /> */}
       {/* <AdminDashboard/> */}
-     {/* <Landingslider1/> */}
+     <Landingslider1/>
      {/* <Landingslider2/> */}
      {/* <Landingslider3/> */}
      {/* <Landingslider4/> */}
-     <Landingslider5/>
+     {/* <Landingslider5/> */}
 
      
     </>

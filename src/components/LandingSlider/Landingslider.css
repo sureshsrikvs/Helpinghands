@@ -1,39 +1,39 @@
 .landingslider1 {
-  width: 95%;
-  height: auto;
-  margin: 0 auto;
-  border-radius: 10px;
-}
-.ls1-container {
-  width: 100%;
-  border-radius: 10px;
-
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 90px;
-  background: #cdfff344;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
-    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-}
+    width: 95%;
+    height: 400px;
+    margin: 0 auto;
+    border-radius: 10px;
+  }
+  .ls1-container {
+    width: 100%;
+    border-radius: 10px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+    background: #cdfff344;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+      rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+      rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  }
 .thiruimage {
-  width: 300px;
-  height: 300px;
+  width: 280px;
+  height: 280px;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
   border-radius: 30px;
 }
 .ollaichuvadi {
-  width: 700px;
-  height: 400px;
+  width: 600px;
+  height: 240px;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
 }
 .ollai {
-  width: 700px;
-  height: 350px;
+  width: 550px;
+  height: 280px;
 }
 .ollai img {
   width: 100%;
@@ -54,21 +54,21 @@
 
 .olaitamil {
   position: absolute;
-  top: 120px;
+  top: 50px;
 }
 .olaitamil p {
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 800;
   color: #84560d;
   letter-spacing: 0.09rem;
 }
 .olaienglish {
   position: absolute;
-  top: 220px;
+  top: 130px;
 }
 .olaienglish p {
-  font-size: 22px;
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: 800;
   text-transform: capitalize;
   letter-spacing: 0.09rem;
   color: #84560d;
