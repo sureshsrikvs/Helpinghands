@@ -21,23 +21,25 @@ import Landingslider2 from "./components/LandingSlider/Landingslider2";
 import Landingslider3 from "./components/LandingSlider/Landingslider3";
 import Landingslider4 from "./components/LandingSlider/Landingslider4";
 import Landingslider5 from "./components/LandingSlider/Landingslider5";
+import Logo from "./components/logo/Logo";
 
 function App() {
   return (
     <>
       {/* <AboutUs /> */}
       {/* <Contact /> */}
-      {/* <Ourprogram /> */}
+      <Ourprogram />
     
-      {/* <Gallery /> */}
+      {/* <Gallery /> */} 
       {/* <Donate /> */}
       {/* <DonateNow /> */}
       {/* <AdminDashboard/> */}
-     <Landingslider1/>
+     {/* <Landingslider1/> */}
      {/* <Landingslider2/> */}
      {/* <Landingslider3/> */}
      {/* <Landingslider4/> */}
      {/* <Landingslider5/> */}
+     {/* <Logo/> */}
 
      
     </>

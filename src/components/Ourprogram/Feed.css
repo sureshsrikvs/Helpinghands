@@ -299,9 +299,7 @@ position: relative;
        font-weight: 800;
        margin-bottom: 2rem;
     }
-    .feed-left h1 span{
-        color: #FF90B2;
-    }
+  
     .feed-left p{
         width: 100%;
        font-size: 10px;
@@ -316,14 +314,11 @@ position: relative;
     }
   
     .feed-image1 {
-        width: 100px; /* Adjust sizes for images */
+        width: 100px; 
         height: 100px;
-        bottom: -10px;
-        left: -20px;
+        bottom: 0px;
+        left: -10px;
     }
-
-
-
     .feed-image3 {
         width: 130px;
         height: 100px;
@@ -344,8 +339,8 @@ position: relative;
         width: 131.91px;
         height: 131.91px;
         border-radius: 50%;
-        bottom: -.5rem;
-        left: 6rem;
+        bottom: -.3rem;
+        left: 7.3rem;
     }
     .feed-image3{
         position: absolute;
@@ -361,7 +356,6 @@ position: relative;
 .feed-right-box{
     width: 70%;
     height: 20vh; 
-    background: #FF90B2;
     padding: 10px 17px;
     display: flex;
     align-items: center;

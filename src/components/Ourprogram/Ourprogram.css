@@ -253,7 +253,7 @@
 }
 
 .container-btns{
-    width:100px;
+    width:180px;
     background: none;
     font-size:9px;
     font-weight: 600;
@@ -392,13 +392,13 @@
     align-items: center;
     justify-content: center;
     border-radius: 0px;
-    margin-bottom: 8rem;
+    margin-bottom: 6rem;
 }
 
 .container-btns{
-    width:100px;
+    width:140px;
     background: none;
-    font-size:9px;
+    font-size:8.5px;
     font-weight: 600;
     font-style: italic;
     transition: all .3s ease;
@@ -408,10 +408,10 @@
     border-left: 3px solid #fff ;
     border-radius: 0px;
     border-right: 3px solid #fff;
-    font-size: 22px;
+    font-size: 10px;
 }
 .container-btns:active{
-    transform: scale(1.1);
+    transform: scale(1.05);
 }
 
 .passionate{
@@ -419,7 +419,7 @@
     margin-top: 8rem;
 }
 .passionate .pass-con{
-    width: 80%;
+    width: 95%;
     margin: 0 auto;
     text-align: center;
 }
@@ -431,12 +431,13 @@
    text-transform: capitalize;
 }
 .passionate .pass-con p{
+    width: 100%;
    margin-bottom: 60px;
    font-size: 10px;
    font-weight: 500;
-   line-height: 28px;
+   line-height: 22px;
    text-transform: capitalize;
-   color: #000;
+   color: #000000;
 }
 .passionate .pass-con .pass-btn{
     margin: 1rem auto;
