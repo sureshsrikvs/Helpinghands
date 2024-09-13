@@ -80,6 +80,7 @@
 .container-btns{
     border: none;
     outline: none;
+    width: 260px;
     background: none;
     font-size: 20px;
     font-weight: 600;
