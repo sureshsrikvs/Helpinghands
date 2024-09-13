@@ -1,4 +1,6 @@
 import React from 'react'
+import './Landingslider.css';
+
 const Landingslider4 = () => {
   return (
     <div className="landingslider4">

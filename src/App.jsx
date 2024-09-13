@@ -26,7 +26,7 @@ function App() {
     <>
       {/* <AboutUs /> */}
       {/* <Contact /> */}
-      <Ourprogram />
+      {/* <Ourprogram /> */}
     
       {/* <Gallery /> */} 
       {/* <Donate /> */}
@@ -36,7 +36,7 @@ function App() {
      {/* <Landingslider2/> */}
      {/* <Landingslider3/> */}
      {/* <Landingslider4/> */}
-     {/* <Landingslider5/> */}
+     <Landingslider5/>
      {/* <Logo/> */}
 
      
