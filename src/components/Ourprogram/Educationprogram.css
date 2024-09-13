@@ -102,6 +102,8 @@ position: relative;
     color: black;
     background: #fff;
     font-weight: 600;
+    border: none;
+    outline: none;
 
 }
 

@@ -1,6 +1,5 @@
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Donner from "./components/About/blood/Donner";
 import AboutUs from "./components/Aboutpage/AboutUs";
 import AdminDashboard from "./components/Admin/AdminDashboard";
 import Contact from "./components/Contact/Contact";
@@ -21,7 +20,6 @@ import Landingslider2 from "./components/LandingSlider/Landingslider2";
 import Landingslider3 from "./components/LandingSlider/Landingslider3";
 import Landingslider4 from "./components/LandingSlider/Landingslider4";
 import Landingslider5 from "./components/LandingSlider/Landingslider5";
-import Logo from "./components/logo/Logo";
 
 function App() {
   return (

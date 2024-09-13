@@ -99,6 +99,8 @@ position: relative;
     font-size: 15px;
     color: black;
     background: #fff;
+    border: none;
+    outline: none;
 }
 
 .feed-right-btn:hover{
@@ -375,6 +377,7 @@ position: relative;
     font-size: 10px;
     color: black;
     background: #fff;
+    
 }
 
 .feed-right-btn:hover{

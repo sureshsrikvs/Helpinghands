@@ -99,6 +99,8 @@ position: relative;
     font-size: 15px;
     color: black;
     background: #fff;
+    border: none;
+    outline: none;
 }
 
 .flood-right-btn:hover{
